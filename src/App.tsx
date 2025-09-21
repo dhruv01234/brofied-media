@@ -40,10 +40,8 @@ import bts7 from '../assets/7.jpg';
 import bts8 from '../assets/8.jpg';
 import bts9 from '../assets/9.jpg';
 import bts10 from '../assets/10.jpg';
-// @ts-ignore
-import bts11 from '../assets/11.JPG';
-// @ts-ignore
-import bts12 from '../assets/12.JPG';
+import bts11 from '../assets/11.JPG?url';
+import bts12 from '../assets/12.JPG?url';
 import bts13 from '../assets/13.jpg';
 import bts14 from '../assets/14.jpg';
 import bts15 from '../assets/15.jpg';
