@@ -28,6 +28,33 @@ import aboutLogo from '../assets/logo.jpeg';
 import poster1 from '../assets/Events.png';
 import poster2 from '../assets/Fashion.png';
 import poster3 from '../assets/Music_video.png';
+
+// BTS Images imports
+import bts1 from '../assets/1.jpg';
+import bts2 from '../assets/2.jpg';
+import bts3 from '../assets/3.jpg';
+import bts4 from '../assets/4.jpg';
+import bts5 from '../assets/5.jpg';
+import bts6 from '../assets/6.jpg';
+import bts7 from '../assets/7.jpg';
+import bts8 from '../assets/8.jpg';
+import bts9 from '../assets/9.jpg';
+import bts10 from '../assets/10.jpg';
+// @ts-ignore
+import bts11 from '../assets/11.JPG';
+// @ts-ignore
+import bts12 from '../assets/12.JPG';
+import bts13 from '../assets/13.jpg';
+import bts14 from '../assets/14.jpg';
+import bts15 from '../assets/15.jpg';
+import bts16 from '../assets/16.jpg';
+import bts17 from '../assets/17.jpg';
+import bts18 from '../assets/18.jpg';
+import bts19 from '../assets/19.jpg';
+import bts20 from '../assets/20.jpg';
+
+// Video imports
+import testimonialVideo from '../videos/Testimonial.mp4';
 import eventsVideo from '../videos/Events.mp4';
 import fashionFitnessVideo from '../videos/Fashion & Fitness.mp4';
 import musicVideosVideo from '../videos/Music Videos.mp4';
@@ -134,26 +161,8 @@ function App() {
 
   // BTS gallery images
   const btsImages = [
-    "assets/1.jpg",
-    "assets/2.jpg",
-    "assets/3.jpg",
-    "assets/4.jpg",
-    "assets/5.jpg",
-    "assets/6.jpg",
-    "assets/7.jpg",
-    "assets/8.jpg",
-    "assets/9.jpg",
-    "assets/10.jpg",
-    "assets/11.JPG",
-    "assets/12.JPG",
-    "assets/13.jpg",
-    "assets/14.jpg",
-    "assets/15.jpg",
-    "assets/16.jpg",
-    "assets/17.jpg",
-    "assets/18.jpg",
-    "assets/19.jpg",
-    "assets/20.jpg",
+    bts1, bts2, bts3, bts4, bts5, bts6, bts7, bts8, bts9, bts10,
+    bts11, bts12, bts13, bts14, bts15, bts16, bts17, bts18, bts19, bts20
   ];
 
   useEffect(() => {
@@ -807,7 +816,7 @@ function App() {
           <div className="section-reveal max-w-4xl mx-auto mb-12 rounded-2xl overflow-hidden border border-red-500/20 shadow-2xl">
             <div className="aspect-video bg-gray-900 relative">
               <video
-                src="videos/Testimonial.mp4"
+                src={testimonialVideo}
                 controls
                 playsInline
                 className="absolute inset-0 w-full h-full object-cover"
