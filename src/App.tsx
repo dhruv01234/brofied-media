@@ -144,8 +144,8 @@ function App() {
     "assets/8.jpg",
     "assets/9.jpg",
     "assets/10.jpg",
-    "assets/11.jpg",
-    "assets/12.jpg",
+    "assets/11.JPG",
+    "assets/12.JPG",
     "assets/13.jpg",
     "assets/14.jpg",
     "assets/15.jpg",
@@ -423,7 +423,7 @@ function App() {
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <img 
-              src="/src/logo.jpeg" 
+              src={aboutLogo} 
               alt="BROFIED Media Logo" 
               className="h-16 w-auto logo-3d-header"
             />
@@ -1142,7 +1142,7 @@ function App() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <img 
-                src="/src/logo.jpeg" 
+                src={aboutLogo} 
                 alt="BROFIED Media Logo" 
                 className="h-20 w-auto logo-3d-footer"
               />
